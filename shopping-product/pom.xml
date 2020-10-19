@@ -10,7 +10,6 @@
 	</parent>
 	<groupId>com.zyx.shopping</groupId>
 	<artifactId>shopping-product</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
 	<name>shopping-product</name>
 	<description>电商-商品服务</description>
 
@@ -44,6 +43,11 @@
 					<artifactId>junit-vintage-engine</artifactId>
 				</exclusion>
 			</exclusions>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<scope>test</scope>
 		</dependency>
 	</dependencies>
 

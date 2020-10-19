@@ -11,7 +11,7 @@ import java.util.Map;
  *
  * @author Zhaoyx
  * @email Zhaoyunxin0922@outlook.com
- * @date 2020-10-19 15:11:22
+ * @date 2020-10-19 15:45:50
  */
 public interface SpuCommentService extends IService<SpuCommentEntity> {
 

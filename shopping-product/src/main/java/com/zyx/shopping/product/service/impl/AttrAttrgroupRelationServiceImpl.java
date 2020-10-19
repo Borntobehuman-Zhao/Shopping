@@ -14,7 +14,8 @@ import com.zyx.shopping.product.service.AttrAttrgroupRelationService;
 
 
 @Service("attrAttrgroupRelationService")
-public class AttrAttrgroupRelationServiceImpl extends ServiceImpl<AttrAttrgroupRelationDao, AttrAttrgroupRelationEntity> implements AttrAttrgroupRelationService {
+public class AttrAttrgroupRelationServiceImpl extends ServiceImpl<AttrAttrgroupRelationDao, AttrAttrgroupRelationEntity>
+        implements AttrAttrgroupRelationService {
 
     @Override
     public PageUtils queryPage(Map<String, Object> params) {
