@@ -15,6 +15,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 /**
  * @author Zhaoyx
  */
+2
+@Enable
 @SpringBootApplication
 public class RenrenApplication {
 
